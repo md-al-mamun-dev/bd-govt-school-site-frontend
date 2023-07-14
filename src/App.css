@@ -19,6 +19,7 @@
   box-shadow:  5px 5px 20px #eaeaea,
               -5px -5px 20px #eaeaea;
 }
+
 .body-elements > .padding-div{
     padding-left: 2.5em;
     padding-right: 2.5em;
@@ -32,6 +33,7 @@
   object-fit: fill;
   height: auto;
 }
+
 .decorator-image{
   width: 100%;
 }
