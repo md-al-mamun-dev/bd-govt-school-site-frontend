@@ -1,0 +1,20 @@
+.play-pause-btn{
+    background: transparent;
+    border: none;
+    display: flex;
+    width: inherit;
+    width: 100%;
+    padding: 10px ;
+    align-items: center;
+    cursor: pointer;
+}
+
+.play-pause-btn > img{
+    width: 15px;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+

@@ -1,0 +1,39 @@
+.person-card-container{
+    width: inherit  ;
+    min-height:300px ;
+    margin: 0 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-card-container > .card-title{
+    width: 100%;
+    height: 36px;
+    background: #3a6351;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.person-card-container > .card-img{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: top;
+    margin: 12px 0px;
+}
+
+.person-card-container > .card-info{
+    margin-bottom: 20px;
+}
+
+.card-info > div{
+    text-align: center;
+}
+
+

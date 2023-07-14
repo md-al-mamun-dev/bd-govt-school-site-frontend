@@ -1,0 +1,78 @@
+.header{
+    padding: 0em .75em .75em .75em;
+    box-shadow:  5px 5px 20px #eaeaea,
+                -5px -5px 20px #eaeaea;
+}
+
+.lang-bar{
+    width: inherit;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #393232;
+    color: white;
+    top: 0;
+
+    /* position: absolute; */
+    /* width: 929px; */
+
+    /* mobile wide 320px */
+    /* width:52%; */
+    /* max-width: 216px; */
+
+    /* mobile wide 375px */
+    /* width: 72%; */
+
+    /* mobile wide 425px */
+    /* width: 75%; */
+
+    /* mobile wide 425px */
+    /* width: 87%; */
+
+    /* screen wide 1024px */
+    /* width: 90%; */
+
+    align-self: center;
+    border-bottom: 6px solid #3a6351;
+    padding: .25em;
+}
+
+.lang-bar > a{
+    text-decoration: none;
+    color: white;
+    padding: .25em;
+}
+
+.banner{  
+    width: 100%;
+    text-align: center;
+}
+
+.centered-text{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: -2px 8px 6px black;
+}
+
+.banner > img{
+    width: 100%;
+    height: auto ;  
+    object-fit: cover;
+    inset: auto 0;
+}
+
+.banner > .institute-name{
+    position: absolute;
+    top: 32%;
+    width: 100%;
+    left: 10px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    text-shadow: -2px 8px 6px black;
+}

@@ -1,0 +1,19 @@
+.an-event-container{
+    border-radius: 3px;
+}
+
+.an-event-container > img{
+    border-top: 1px dotted rgb(207, 207, 207);
+    border-left: 1px dotted rgb(207, 207, 207);
+    border-right: 1px dotted rgb(207, 207, 207);
+    border-radius: 3px 3px 0px 0px;
+}
+
+.wide-btn{
+    width: 100%;
+    padding: 5px;
+    background: #3a6351;
+    color: white;
+    border-radius: 0px 0px 3px 3px;    
+}
+

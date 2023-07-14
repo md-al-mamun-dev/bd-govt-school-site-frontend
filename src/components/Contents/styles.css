@@ -1,0 +1,28 @@
+.main-container{
+    padding: 20px 0px 0px 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+.main-container > .section-main{
+    flex-grow: 3;
+    max-width: 70%;
+
+    box-shadow:  5px 5px 20px #eaeaea,
+                -5px -5px 20px #eaeaea;
+}
+
+.main-container > .section-sidebar{
+    min-height: 100vh;
+    flex-grow: 1;
+    min-width: 25%;
+    box-shadow:  5px 5px 20px #eaeaea,
+                -5px -5px 20px #eaeaea;
+}
+
+
+

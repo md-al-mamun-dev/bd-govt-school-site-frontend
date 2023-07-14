@@ -1,0 +1,22 @@
+.galleries-container{
+    margin: 15px;
+    
+}
+
+.gallery-title{
+    width: 100%;
+    /* height: 40px; */
+    background: #3a6351;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 3px;
+}
+
+.galleries-body{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 15px;
+    margin-top: 15px;
+}

@@ -1,0 +1,51 @@
+    .padding-box{
+        width: inherit;
+        background-color: #e6e7e8;
+        margin: 0 15px;
+        padding: 10px 5px;
+    }
+
+    .scrolled-text-container{
+        background-color: #e6e7e8;
+        width: inherit;
+        display: flex;
+        overflow: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .scrolled-text-container > ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        animation: scroll 80s infinite linear;
+    }
+    .scrolled-text-container > ul:hover{
+        animation-play-state: paused;
+    }
+
+    .scrolled-text-container > ul > li{
+        white-space: nowrap;
+        padding: 10px 24px;
+    }
+
+    .scrolled-text-container > ul > li::after{
+        display: none;
+    }
+
+    @keyframes scroll {
+        from {
+            transform: translateX(-1%);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+    }
+
+    .scrolled-text-container > marquee{
+        margin-top: 0;
+        margin-bottom: 0;
+        top: 50%;
+        align-self: center;
+    }
+

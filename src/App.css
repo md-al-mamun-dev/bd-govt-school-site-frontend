@@ -1,0 +1,55 @@
+
+.body-container{
+  width: 100%;
+  min-height: 100vh;
+  /* max-width: 1440px; */
+  margin-left: auto;
+  margin-right: auto;
+  background-size: 1480px auto;
+  background-position: center top;
+  background-repeat: repeat-y;
+}
+
+.body-container > .body-elements{
+  background: #ffffff;  
+  /* max-width: 54%; */
+  max-width: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:  5px 5px 20px #eaeaea,
+              -5px -5px 20px #eaeaea;
+}
+.body-elements > .padding-div{
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-bottom: 1.5em;
+}
+
+.body-elements > .decorator-image{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  object-fit: fill;
+  height: auto;
+}
+.decorator-image{
+  width: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .body-elements{
+    min-width: 1024px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .body-container{
+    background-size: 78% auto ;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .body-elements{
+    min-width: 54%;
+  }
+}

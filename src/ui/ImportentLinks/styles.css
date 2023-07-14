@@ -1,0 +1,34 @@
+.link-container{
+    /* border: 1px solid red; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.link-container > .title{
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #3a6351;
+    color: white;
+}
+
+.link-content > .imp-link-item{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+
+    padding: 7px;
+}
+
+.imp-link-item:not(:last-child){
+    border-bottom: 1px solid #3a6351;
+}
+
+
+.imp-link-item > a{
+    text-decoration: none;
+    color: black
+    
+    /* text-decoration-color: none; */
+}

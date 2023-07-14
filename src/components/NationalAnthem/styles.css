@@ -1,0 +1,8 @@
+.national-anthem-container > .title{
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: #3a6351;
+    color: white;
+}

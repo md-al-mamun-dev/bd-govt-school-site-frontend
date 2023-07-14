@@ -1,0 +1,279 @@
+.navbar{
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar > .nav-menu{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    border: .5px solid lightgray;
+}
+
+.navbar > .nav-menu > li{
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+.navbar > .nav-menu > li:not(:nth-child(1)){
+    border-left: 1px dotted lightgray;
+}
+
+.navbar > .nav-menu > li > a{
+    text-decoration: none;
+}
+
+/* .nav-menu-item:hover {
+    box-shadow: inset 1px 0px 2px #cecdcd,
+                inset -1px -0px 2px #cecdcd;
+} */
+
+
+.nav-menu-item > .nav-submenu{
+    text-decoration: none;
+    list-style-type: none;
+    display: none;
+}
+
+.nav-menu-item:hover > .nav-submenu{
+    display: block;
+    position: absolute;
+    background: white;
+    padding: 5px;
+    margin-top: 8px;
+    margin-left: -8px;
+    z-index: 3;
+}
+/* 
+orange  #ff6600
+green #6ab04c
+purple #e056fd
+yellow #f9ca24
+blue #1e3799
+lightgreen #3ae374
+lightblue #17c0eb
+deepblue #474787
+darkblue #009432
+red #ea2027
+  */
+
+
+.nav-menu-item:nth-child(2) > a{
+    color: #ff6600;
+}
+
+.nav-menu-item:nth-child(3) > a{
+    color: #6ab04c;
+}
+
+.nav-menu-item:nth-child(4) > a{
+    color: #e056fd;
+}
+
+.nav-menu-item:nth-child(5) > a{
+    color: #f9ca24;
+}
+.nav-menu-item:nth-child(6) > a{
+    color: #1e3799;
+}
+
+.nav-menu-item:nth-child(7) > a{
+    color: #3ae374;
+}
+.nav-menu-item:nth-child(8) > a{
+    color: #17c0eb;
+}
+
+.nav-menu-item:nth-child(9) > a{
+    color: #474787
+}
+.nav-menu-item:nth-child(10) > a{
+    color: #009432;
+}
+
+.nav-menu-item:nth-child(11) > a{
+    color: #ea2027;
+}
+
+.nav-menu-item:nth-child(12){
+    background: #3a6351;
+}
+.nav-menu-item:nth-child(12) > a{
+    color: white;
+}
+
+
+
+.nav-menu-item:hover > a{
+    color: white;
+}
+
+/* 
+.nav-menu-item:hover > .nav-submenu > .nav-submenu-item > a:hover{
+    font-weight: 600;
+}
+ */
+
+.nav-menu-item:nth-child(2):hover{
+    background: #ff6600;
+    box-shadow: inset 1px 1px 5px 1px #d15000,
+                inset -1px -1px 5px 1px #ff6600;    
+}
+
+.nav-menu-item:nth-child(2):hover > .nav-submenu{
+    border-top: 5px solid #ff6600;
+}
+
+.nav-menu-item:nth-child(2):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #ff6600;
+}
+
+.nav-menu-item:nth-child(3):hover{
+    background: #6ab04c;
+    box-shadow: inset 1px 1px 5px 1px #548b3c,
+                inset -1px -1px 5px 1px #6ab04c;   
+}
+
+.nav-menu-item:nth-child(3):hover > .nav-submenu{
+    border-top: 5px solid #6ab04c;
+}
+
+.nav-menu-item:nth-child(3):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #6ab04c;
+}
+
+.nav-menu-item:nth-child(4):hover{
+    background: #e056fd;
+    box-shadow: inset 1px 1px 5px 1px #a93fbe,
+                inset -1px -1px 5px 1px #e056fd;   
+}
+
+.nav-menu-item:nth-child(4):hover > .nav-submenu{
+    border-top: 5px solid #e056fd;
+}
+
+.nav-menu-item:nth-child(4):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #e056fd;
+}
+
+.nav-menu-item:nth-child(5):hover{
+    background: #f9ca24;
+    box-shadow: inset 1px 1px 5px 1px #cfa91e,
+                inset -1px -1px 5px 1px #f9ca24; 
+}
+.nav-menu-item:nth-child(5):hover > .nav-submenu{
+    border-top: 5px solid #f9ca24;
+}
+
+.nav-menu-item:nth-child(5):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #f9ca24;
+}
+
+.nav-menu-item:nth-child(6):hover{
+    background: #1e3799;
+    box-shadow: inset 1px 1px 5px 1px #15276d,
+                inset -1px -1px 5px 1px #2542b6; 
+}
+
+.nav-menu-item:nth-child(6):hover > .nav-submenu{
+    border-top: 5px solid #1e3799;
+}
+
+.nav-menu-item:nth-child(6):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #1e3799;
+}
+
+.nav-menu-item:nth-child(7):hover{
+    background: #3ae374;
+    box-shadow: inset 1px 1px 5px 1px #21a34f,
+                inset -1px -1px 5px 1px #3ae374; 
+}
+
+.nav-menu-item:nth-child(7):hover > .nav-submenu{
+    border-top: 5px solid #3ae374;
+}
+
+.nav-menu-item:nth-child(7):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #3ae374;
+}
+
+.nav-menu-item:nth-child(8):hover{
+    background: #17c0eb;
+
+    box-shadow: inset 1px 1px 5px 1px #118ead,
+                inset -1px -1px 5px 1px #17c0eb; 
+}
+
+.nav-menu-item:nth-child(8):hover > .nav-submenu{
+    border-top: 5px solid #17c0eb;
+}
+
+.nav-menu-item:nth-child(8):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #17c0eb;
+}
+
+.nav-menu-item:nth-child(9):hover{
+    background: #474787;
+    box-shadow: inset 1px 1px 5px 1px #2f2f5a,
+                inset -1px -1px 5px 1px #474787; 
+}
+
+.nav-menu-item:nth-child(9):hover > .nav-submenu{
+    border-top: 5px solid #474787;
+}
+
+.nav-menu-item:nth-child(9):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #474787;
+}
+
+.nav-menu-item:nth-child(10):hover{
+    background: #009432;
+    box-shadow: inset 1px 1px 5px 1px #016622,
+                inset -1px -1px 5px 1px #009432; 
+}
+.nav-menu-item:nth-child(10):hover > .nav-submenu{
+    border-top: 5px solid #009432;
+}
+.nav-menu-item:nth-child(10):hover > .nav-submenu > .nav-submenu-item > a:hover{
+    color: #009432;
+}
+
+.nav-menu-item:nth-child(11):hover{
+    background: #ea2027;
+    box-shadow: inset 1px 1px 5px 1px #9b0f14,
+                inset -1px -1px 5px 1px #ea2027; 
+}
+/* .nav-menu-item:nth-child(11):hover > .nav-submenu{
+    border-top: 5px solid #ea2027;
+} */
+
+.nav-menu-item:nth-child(12):hover{
+    background: #1b1464;
+    box-shadow: inset 1px 1px 5px 1px #0d093d,
+                inset -1px -1px 5px 1px #1b1464; 
+}
+
+/* .nav-menu-item:nth-child(12):hover > .nav-submenu{
+    border-top: 5px solid #1b1464;
+} */
+
+
+.nav-menu-item> .nav-submenu > li{
+    padding: 10px;
+}
+.nav-menu-item> .nav-submenu > li:not(:last-child){
+    border-bottom: 1px solid lightgray;
+}
+
+.nav-menu-item> .nav-submenu > li > a{
+    text-decoration: none;
+    color: black;
+}
