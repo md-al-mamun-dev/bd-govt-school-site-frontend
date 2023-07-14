@@ -1,5 +1,7 @@
 import './styles.css'
 import ArrowIcon from '../../assets/icons/arrow_right.svg'
+import CampusSVG from '../../assets/campus-icon.svg'
+
 
 
 
@@ -8,7 +10,7 @@ export default function Feature() {
     <div className='feature-container'>
         <div className='feature-name'> ক্যাম্পাস </div>
         <div className='feature-body'>
-            <img src={import.meta.env.BASE_URL+'/features/campus/campus-icon.svg'} alt="" />
+            <img src={CampusSVG} alt="" />
             <div className='feature-options'>
                 <div className='option'>
                     <img className='arrow-icon' src={ArrowIcon} alt="" /> <p>আমাদের কলেজ</p>

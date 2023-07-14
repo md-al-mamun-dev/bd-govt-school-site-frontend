@@ -1,4 +1,5 @@
 import './styles.css'
+import directorPhoto from '../../assets/director_general.jpg'
 
 export default function PersonCard() {
   return (
@@ -7,7 +8,7 @@ export default function PersonCard() {
             <p>মহাপরিচালক</p>
         </div>
         
-        <img className='card-img' src={import.meta.env.BASE_URL + '/director_general.jpg '} alt="" />
+        <img className='card-img' src={directorPhoto} alt="" />
         
         <div className='card-info'>
             <div className='info-name'>
